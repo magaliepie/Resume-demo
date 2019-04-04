@@ -138,11 +138,19 @@ li::before {
 .job-title {
     text-transform: capitalize;
 }
-
-
-.school span {
-  color: #A7B8BF;
-}
+/*FOOTEROS*/
 footer {
- padding: 1em;
+    background-color: #77bbb6;
+    text-align: right;
+    padding: 1em;
 }
+a {
+    color: #1C9C94;
+    text-decoration: none
+}
+a:hover {
+    opacity: 0.5;
+    ;
+}
+
+
