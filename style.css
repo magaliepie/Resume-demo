@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-size: 18px;
+    line-height: 1.8em;
+  font-family: 'Raleway', sans-serif;
+}
+article {
+  padding:0 1em;
+}
+section{
+  margin: 1em;
+  padding: 1em;
+}
+header, main, footer {
+  margin: 0 auto;
+  color: white;
+}
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('bg3.jpg');
+  /* Obraz Andrian Valeanu z Pixabay  */
+  background-size: cover;
+  background-position: fixed;
+}
+header section {
+  margin: 0 auto;
+  width: 550px;
+  padding-right: 150px;
+}
+
+header img {
+  background-image: url('avatar.jpg');
+  width: 150px;
+  border-radius: 50%;    
+}
+h1 {
+  margin: 1em 0;
+  text-transform: uppercase;
+  color: black;
+}
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: black;
+}
+main {
+  max-width: 1140px;
+  border-bottom: 20px;
+}
+.course {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+.course .title {
+  font-weight: 600;
+  color: #509e98;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%
+ }
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%
+}
+.course .descrition p {
+  padding-left: 1em;
+}
+.skills {
+  color: black;
+}
+.school span {
+  color: #A7B8BF;
+}
+footer {
+ padding: 1em;
+}
