@@ -28,7 +28,7 @@ header {
 header section {
   margin: 0 auto;
   width: 550px;
-  padding-right: 150px;
+  padding-right: 50px;
 }
 
 header img {
@@ -45,6 +45,7 @@ h3 {
   font-weight: 300;
   text-transform: uppercase;
   color: black;
+  font-weight: 600;
 }
 main {
   max-width: 1140px;
@@ -61,8 +62,8 @@ main {
   color: #509e98;
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
-  max-width: 33%
- }
+  max-width: 33%;
+}
 .course .descrition {
   -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
@@ -71,9 +72,62 @@ main {
 .course .descrition p {
   padding-left: 1em;
 }
+
+/* SKILLS*/
 .skills {
   color: black;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -ms-flexbox;  
 }
+h4 {
+    color: black;
+}
+.skills .column {
+  color: black;
+  -ms-flex: 0 0 50%%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+/*UNORDERED LIST IN SKILLS*/
+ul {
+  margin: 0;
+}
+ul.list-dashed {
+  list-style-type: none;
+  padding: 0;
+}
+ul.list-dashed > li {
+  padding-left: 1.5em; 
+}
+ul.list-dashed > li:before {
+  content: "►";
+  color: #509e98;
+  padding-right: 0.5em;
+}
+
+/* LANGUAGES*/
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 2em; 
+  text-indent: -.7em;
+}
+
+li::before {
+  content: "• ";
+  color: #509e98; 
+}
+
+/* YYYY */
+
+
+
 .school span {
   color: #A7B8BF;
 }
