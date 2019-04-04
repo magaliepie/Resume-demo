@@ -72,7 +72,12 @@ main {
 }
 
 /* SKILLS*/
-
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
 .skills .column {
   -ms-flex: 0 0 50%%;
   flex: 0 0 50%;
