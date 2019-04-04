@@ -133,6 +133,11 @@ li::before {
     text-transform: capitalize;
     font-weight: 600;
 }
+/* EXPERIENCE */
+
+.job-title {
+    text-transform: capitalize;
+}
 
 
 .school span {
