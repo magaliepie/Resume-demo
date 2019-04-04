@@ -13,9 +13,13 @@ section{
   margin: 1em;
   padding: 1em;
 }
-header, main, footer {
+header, footer {
   margin: 0 auto;
   color: white;
+}
+main {
+     margin: 0 auto;
+  color: black; 
 }
 header {
   padding: 2em;
@@ -124,8 +128,11 @@ li::before {
   color: #509e98; 
 }
 
-/* YYYY */
-
+/* EDUCATION */
+.school {
+    text-transform: capitalize;
+    font-weight: 600;
+}
 
 
 .school span {
