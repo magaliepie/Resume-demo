@@ -110,11 +110,6 @@ ul {
   margin: 0;
 }
 
-li {
-  padding-left: 2em; 
-  text-indent: -.7em;
-}
-
 li::before {
   content: "• ";
   color: #509e98; 
@@ -147,12 +142,18 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     header  {
-      display:block;
+      display: block;
     }
     
  
   .course .title, .course .descrition {
-    max-width: 100%;
+        max-width: 100%;
+   
+  }
+
+   
+  footer {
+    text-align: center;
   }
 }
 
