@@ -16,11 +16,8 @@ Project is created with:
 * CSS3
 
 ### How to Start
-```
 
 This project is being deployed on GitHup Pages. 
 Here is the link! [Apple Page!](https://magaliepie.github.io/Resume-demo/)
 
-```
-Here is the link! [Apple Page!](https://magaliepie.github.io/Resume-demo/)
 ## This mini-project was inspired by the work of Rita Łyczywek from [flynerd.pl](https://www.flynerd.pl/)
