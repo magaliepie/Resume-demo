@@ -2,9 +2,9 @@
 The idea of this mini project is co to called demo for Resume. Created with HTML5 and CSS3, inspired by flynerd.pl
 
 # Table of Contents
-⋅⋅* General Info
-⋅⋅* Technologies
-⋅⋅* How to Start
+* General Info
+* Technologies
+* How to Start
 
 ### General info
 ⋅⋅⋅Website created for a template/ demo of your future resume. Fully done in responsive mobile version and desktop version. 
