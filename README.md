@@ -1,5 +1,5 @@
 # Resume Demo
-The idea of this mini project is co to called demo for Resume. Created with HTML5 and CSS3, inspired by flynerd.pl
+The idea of this mini project is co to called demo for Resume. 
 
 # Table of Contents
 * General Info
@@ -22,4 +22,5 @@ This project is being deployed on GitHup Pages.
 Here is the link! [Apple Page!](https://magaliepie.github.io/Resume-demo/)
 
 ```
+Here is the link! [Apple Page!](https://magaliepie.github.io/Resume-demo/)
 ## This mini-project was inspired by the work of Rita Łyczywek from [flynerd.pl](https://www.flynerd.pl/)
